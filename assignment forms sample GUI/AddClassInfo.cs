@@ -10,14 +10,36 @@ using System.Windows.Forms;
 
 namespace assignment_forms_sample_GUI
 {
-    public partial class AddClassInfo : Form
+    public partial class frmAddClassInfo : Form
     {
-        public AddClassInfo()
+        public frmAddClassInfo()
         {
             InitializeComponent();
         }
 
         private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            TutorMenu tutomenu = new TutorMenu();
+            tutomenu.Show();
+            this.Hide();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpTime_ValueChanged(object sender, EventArgs e)
         {
 
         }

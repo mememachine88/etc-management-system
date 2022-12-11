@@ -1,6 +1,9 @@
 ﻿namespace assignment_forms_sample_GUI
 {
-    partial class AddClassInfo
+    partial class frmAddClassInfo
+
+
+
     {
         /// <summary>
         /// Required designer variable.
@@ -28,131 +31,165 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button3 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.btnAddClassInfo = new System.Windows.Forms.Button();
+            this.lblAddClassInfo = new System.Windows.Forms.Label();
+            this.cmbSubject = new System.Windows.Forms.ComboBox();
+            this.lblSubject = new System.Windows.Forms.Label();
+            this.lblClassDate = new System.Windows.Forms.Label();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.dtpDate = new System.Windows.Forms.DateTimePicker();
+            this.lblClassTime = new System.Windows.Forms.Label();
+            this.txtTime = new System.Windows.Forms.TextBox();
+            this.radAm = new System.Windows.Forms.RadioButton();
+            this.radPm = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
-            // button3
+            // btnAddClassInfo
             // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(283, 385);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(259, 43);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Add Class Information ";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnAddClassInfo.BackColor = System.Drawing.Color.White;
+            this.btnAddClassInfo.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAddClassInfo.Location = new System.Drawing.Point(175, 374);
+            this.btnAddClassInfo.Name = "btnAddClassInfo";
+            this.btnAddClassInfo.Size = new System.Drawing.Size(259, 43);
+            this.btnAddClassInfo.TabIndex = 3;
+            this.btnAddClassInfo.Text = "Add Class Information ";
+            this.btnAddClassInfo.UseVisualStyleBackColor = false;
             // 
-            // label1
+            // lblAddClassInfo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Green;
-            this.label1.Location = new System.Drawing.Point(256, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(317, 37);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Add Your Class Info Here!";
+            this.lblAddClassInfo.AutoSize = true;
+            this.lblAddClassInfo.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblAddClassInfo.ForeColor = System.Drawing.Color.Green;
+            this.lblAddClassInfo.Location = new System.Drawing.Point(256, 19);
+            this.lblAddClassInfo.Name = "lblAddClassInfo";
+            this.lblAddClassInfo.Size = new System.Drawing.Size(317, 37);
+            this.lblAddClassInfo.TabIndex = 7;
+            this.lblAddClassInfo.Text = "Add Your Class Info Here!";
             // 
-            // textBox1
+            // cmbSubject
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(298, 268);
-            this.textBox1.MaxLength = 8;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PlaceholderText = "DD/MM/YY";
-            this.textBox1.Size = new System.Drawing.Size(159, 35);
-            this.textBox1.TabIndex = 8;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmbSubject.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cmbSubject.FormattingEnabled = true;
+            this.cmbSubject.Items.AddRange(new object[] {
             "English",
             "Chinese",
             "Malay",
             "Mathemathics",
             "Science",
             "History"});
-            this.comboBox1.Location = new System.Drawing.Point(298, 80);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(159, 38);
-            this.comboBox1.TabIndex = 9;
+            this.cmbSubject.Location = new System.Drawing.Point(323, 99);
+            this.cmbSubject.Name = "cmbSubject";
+            this.cmbSubject.Size = new System.Drawing.Size(159, 38);
+            this.cmbSubject.TabIndex = 9;
             // 
-            // label2
+            // lblSubject
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Green;
-            this.label2.Location = new System.Drawing.Point(190, 80);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 30);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Subject:";
+            this.lblSubject.AutoSize = true;
+            this.lblSubject.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSubject.ForeColor = System.Drawing.Color.Green;
+            this.lblSubject.Location = new System.Drawing.Point(199, 99);
+            this.lblSubject.Name = "lblSubject";
+            this.lblSubject.Size = new System.Drawing.Size(86, 30);
+            this.lblSubject.TabIndex = 10;
+            this.lblSubject.Text = "Subject:";
             // 
-            // label3
+            // lblClassDate
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.Green;
-            this.label3.Location = new System.Drawing.Point(283, 152);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(197, 37);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "Class Schedule:";
+            this.lblClassDate.AutoSize = true;
+            this.lblClassDate.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblClassDate.ForeColor = System.Drawing.Color.Green;
+            this.lblClassDate.Location = new System.Drawing.Point(222, 164);
+            this.lblClassDate.Name = "lblClassDate";
+            this.lblClassDate.Size = new System.Drawing.Size(62, 30);
+            this.lblClassDate.TabIndex = 11;
+            this.lblClassDate.Text = "Date:";
+            this.lblClassDate.Click += new System.EventHandler(this.label3_Click);
             // 
-            // label4
+            // btnCancel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.Green;
-            this.label4.Location = new System.Drawing.Point(222, 212);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 30);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "Day:";
+            this.btnCancel.BackColor = System.Drawing.Color.White;
+            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCancel.Location = new System.Drawing.Point(534, 374);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(108, 43);
+            this.btnCancel.TabIndex = 17;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // textBox2
+            // dtpDate
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(298, 321);
-            this.textBox2.MaxLength = 8;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PlaceholderText = "DD/MM/YY";
-            this.textBox2.Size = new System.Drawing.Size(159, 35);
-            this.textBox2.TabIndex = 14;
+            this.dtpDate.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dtpDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpDate.Location = new System.Drawing.Point(323, 164);
+            this.dtpDate.Name = "dtpDate";
+            this.dtpDate.Size = new System.Drawing.Size(127, 35);
+            this.dtpDate.TabIndex = 18;
             // 
-            // monthCalendar1
+            // lblClassTime
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(555, 104);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 15;
-            this.monthCalendar1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateChanged);
+            this.lblClassTime.AutoSize = true;
+            this.lblClassTime.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblClassTime.ForeColor = System.Drawing.Color.Green;
+            this.lblClassTime.Location = new System.Drawing.Point(222, 241);
+            this.lblClassTime.Name = "lblClassTime";
+            this.lblClassTime.Size = new System.Drawing.Size(63, 30);
+            this.lblClassTime.TabIndex = 19;
+            this.lblClassTime.Text = "Time:";
+            this.lblClassTime.Click += new System.EventHandler(this.label4_Click);
             // 
-            // AddClassInfo
+            // txtTime
+            // 
+            this.txtTime.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtTime.Location = new System.Drawing.Point(323, 241);
+            this.txtTime.MaxLength = 5;
+            this.txtTime.Name = "txtTime";
+            this.txtTime.PlaceholderText = "00:00";
+            this.txtTime.Size = new System.Drawing.Size(111, 35);
+            this.txtTime.TabIndex = 20;
+            // 
+            // radAm
+            // 
+            this.radAm.AutoSize = true;
+            this.radAm.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.radAm.Location = new System.Drawing.Point(464, 242);
+            this.radAm.Name = "radAm";
+            this.radAm.Size = new System.Drawing.Size(64, 34);
+            this.radAm.TabIndex = 21;
+            this.radAm.TabStop = true;
+            this.radAm.Text = "AM";
+            this.radAm.UseVisualStyleBackColor = true;
+            // 
+            // radPm
+            // 
+            this.radPm.AutoSize = true;
+            this.radPm.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.radPm.Location = new System.Drawing.Point(534, 242);
+            this.radPm.Name = "radPm";
+            this.radPm.Size = new System.Drawing.Size(62, 34);
+            this.radPm.TabIndex = 22;
+            this.radPm.TabStop = true;
+            this.radPm.Text = "PM";
+            this.radPm.UseVisualStyleBackColor = true;
+            // 
+            // frmAddClassInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.monthCalendar1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
-            this.Name = "AddClassInfo";
+            this.Controls.Add(this.radPm);
+            this.Controls.Add(this.radAm);
+            this.Controls.Add(this.txtTime);
+            this.Controls.Add(this.lblClassTime);
+            this.Controls.Add(this.dtpDate);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.lblClassDate);
+            this.Controls.Add(this.lblSubject);
+            this.Controls.Add(this.cmbSubject);
+            this.Controls.Add(this.lblAddClassInfo);
+            this.Controls.Add(this.btnAddClassInfo);
+            this.Name = "frmAddClassInfo";
             this.Text = "AddClassInfo";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -160,14 +197,16 @@
         }
 
         #endregion
-        private Button button3;
-        private Label label1;
-        private TextBox textBox1;
-        private ComboBox comboBox1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private TextBox textBox2;
-        private MonthCalendar monthCalendar1;
+        private Button btnAddClassInfo;
+        private Label lblAddClassInfo;
+        private ComboBox cmbSubject;
+        private Label lblSubject;
+        private Label lblClassDate;
+        private Button btnCancel;
+        private DateTimePicker dtpDate;
+        private Label lblClassTime;
+        private TextBox txtTime;
+        private RadioButton radAm;
+        private RadioButton radPm;
     }
 }

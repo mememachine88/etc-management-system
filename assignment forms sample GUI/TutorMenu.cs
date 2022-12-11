@@ -7,12 +7,14 @@ namespace assignment_forms_sample_GUI
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnAddClassInfo_Click(object sender, EventArgs e)
         {
-
+            frmAddClassInfo addClassInfo = new frmAddClassInfo();
+            addClassInfo.Show();
+            this.Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnUpdateProfile_Click(object sender, EventArgs e)
         {
 
         }
