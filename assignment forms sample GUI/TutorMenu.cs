@@ -16,7 +16,9 @@ namespace assignment_forms_sample_GUI
 
         private void btnUpdateProfile_Click(object sender, EventArgs e)
         {
-
+           frmProfile profile = new frmProfile();
+            profile.Show();
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -27,6 +29,13 @@ namespace assignment_forms_sample_GUI
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnUpdateClassInfo_Click(object sender, EventArgs e)
+        {
+            frmUpdateClassInfo updateClassInfo = new frmUpdateClassInfo();
+            updateClassInfo.Show();
+            this.Hide();
         }
     }
 }

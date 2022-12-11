@@ -77,6 +77,7 @@
             this.btnUpdateClassInfo.TabIndex = 5;
             this.btnUpdateClassInfo.Text = "Update Class Information";
             this.btnUpdateClassInfo.UseVisualStyleBackColor = true;
+            this.btnUpdateClassInfo.Click += new System.EventHandler(this.btnUpdateClassInfo_Click);
             // 
             // lblWelcomeMessage
             // 

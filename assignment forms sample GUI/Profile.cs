@@ -23,5 +23,12 @@ namespace assignment_forms_sample_GUI
             this.Hide();
             tutorMenu.Show();
         }
+
+        private void btnUpdateProfile_Click(object sender, EventArgs e)
+        {
+            frmUpdateProfile updateProfile = new frmUpdateProfile();
+            updateProfile.Show();
+            this.Hide(); 
+        }
     }
 }

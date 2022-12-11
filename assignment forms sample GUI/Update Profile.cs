@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace assignment_forms_sample_GUI
 {
-    public partial class UpdateProfile : Form
+    public partial class frmUpdateProfile : Form
     {
-        public UpdateProfile()
+        public frmUpdateProfile()
         {
             InitializeComponent();
         }
@@ -23,6 +23,30 @@ namespace assignment_forms_sample_GUI
         }
 
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void btnReturnHome_Click(object sender, EventArgs e)
+        {
+            TutorMenu tutorMenu = new TutorMenu();
+            this.Hide();
+            tutorMenu.Show();
+        }
+
+        private void btnUpdateProfile_Click(object sender, EventArgs e)
+        {
+            frmProfile profile = new frmProfile();
+            this.Hide();
+            profile.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
         {
 
         }
