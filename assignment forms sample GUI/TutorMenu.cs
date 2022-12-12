@@ -1,12 +1,16 @@
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+
 namespace assignment_forms_sample_GUI
 {
     public partial class TutorMenu : Form
     {
+ 
+        
         public TutorMenu()
         {
             InitializeComponent();
+            lblWelcomeMessage.Text = "welcome " + LoginInfo.Username;
         }
-
         private void btnAddClassInfo_Click(object sender, EventArgs e)
         {
             frmAddClassInfo addClassInfo = new frmAddClassInfo();
@@ -21,9 +25,9 @@ namespace assignment_forms_sample_GUI
             this.Hide();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void lblWelcomeMessage_Click(object sender, EventArgs e)
         {
-
+             
         }
 
         private void Form1_Load(object sender, EventArgs e)

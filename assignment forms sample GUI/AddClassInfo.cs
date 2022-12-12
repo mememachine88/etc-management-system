@@ -24,8 +24,8 @@ namespace assignment_forms_sample_GUI
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
-            TutorMenu tutomenu = new TutorMenu();
-            tutomenu.Show();
+            TutorMenu tutormenu = new TutorMenu();
+            tutormenu.Show();
             this.Hide();
         }
 
@@ -40,6 +40,16 @@ namespace assignment_forms_sample_GUI
         }
 
         private void dtpTime_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblAddClassInfo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbSubject_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

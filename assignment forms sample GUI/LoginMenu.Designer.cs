@@ -100,6 +100,7 @@
             this.lblWelcomeLogin.Size = new System.Drawing.Size(288, 37);
             this.lblWelcomeLogin.TabIndex = 35;
             this.lblWelcomeLogin.Text = "Login To The ETC APP !";
+            this.lblWelcomeLogin.Click += new System.EventHandler(this.lblWelcomeLogin_Click);
             // 
             // frmLoginMenu
             // 

@@ -30,14 +30,14 @@ namespace assignment_forms_sample_GUI
         private void btnReturnHome_Click(object sender, EventArgs e)
         {
             TutorMenu tutorMenu = new TutorMenu();
-            this.Hide();
+            this.Close();
             tutorMenu.Show();
         }
 
         private void btnUpdateProfile_Click(object sender, EventArgs e)
         {
             frmProfile profile = new frmProfile();
-            this.Hide();
+            this.Close();
             profile.Show();
         }
 
@@ -47,6 +47,11 @@ namespace assignment_forms_sample_GUI
         }
 
         private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNewEmail_TextChanged(object sender, EventArgs e)
         {
 
         }

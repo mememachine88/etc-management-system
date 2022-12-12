@@ -140,6 +140,7 @@
             this.txtNewEmail.Name = "txtNewEmail";
             this.txtNewEmail.Size = new System.Drawing.Size(154, 35);
             this.txtNewEmail.TabIndex = 31;
+            this.txtNewEmail.TextChanged += new System.EventHandler(this.txtNewEmail_TextChanged);
             // 
             // txtNewName
             // 

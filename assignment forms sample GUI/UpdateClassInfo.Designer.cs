@@ -79,6 +79,7 @@
             this.btnUpdateExistingClass.TabIndex = 11;
             this.btnUpdateExistingClass.Text = "Update Existing Class Information";
             this.btnUpdateExistingClass.UseVisualStyleBackColor = false;
+            this.btnUpdateExistingClass.Click += new System.EventHandler(this.btnUpdateExistingClass_Click);
             // 
             // frmUpdateClassInfo
             // 

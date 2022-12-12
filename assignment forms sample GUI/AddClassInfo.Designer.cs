@@ -65,6 +65,7 @@
             this.lblAddClassInfo.Size = new System.Drawing.Size(317, 37);
             this.lblAddClassInfo.TabIndex = 7;
             this.lblAddClassInfo.Text = "Add Your Class Info Here!";
+            this.lblAddClassInfo.Click += new System.EventHandler(this.lblAddClassInfo_Click);
             // 
             // cmbSubject
             // 
@@ -81,6 +82,7 @@
             this.cmbSubject.Name = "cmbSubject";
             this.cmbSubject.Size = new System.Drawing.Size(159, 38);
             this.cmbSubject.TabIndex = 9;
+            this.cmbSubject.SelectedIndexChanged += new System.EventHandler(this.cmbSubject_SelectedIndexChanged);
             // 
             // lblSubject
             // 

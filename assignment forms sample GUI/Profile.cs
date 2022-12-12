@@ -30,5 +30,10 @@ namespace assignment_forms_sample_GUI
             updateProfile.Show();
             this.Hide(); 
         }
+
+        private void lblUsername_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

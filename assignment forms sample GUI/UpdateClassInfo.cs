@@ -24,9 +24,14 @@ namespace assignment_forms_sample_GUI
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
-            frmAddClassInfo addClassInfo = new frmAddClassInfo();
-            addClassInfo.Show();
+            TutorMenu tutorMenu = new TutorMenu();
+            tutorMenu.Show();
             this.Close();
+        }
+
+        private void btnUpdateExistingClass_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

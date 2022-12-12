@@ -89,7 +89,7 @@
             this.lblWelcomeMessage.Size = new System.Drawing.Size(306, 37);
             this.lblWelcomeMessage.TabIndex = 6;
             this.lblWelcomeMessage.Text = "Welcome ! (Tutor Name)";
-            this.lblWelcomeMessage.Click += new System.EventHandler(this.label1_Click);
+            this.lblWelcomeMessage.Click += new System.EventHandler(this.lblWelcomeMessage_Click);
             // 
             // TutorMenu
             // 
